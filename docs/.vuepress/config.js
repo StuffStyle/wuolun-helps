@@ -2,22 +2,27 @@ import { defineUserConfig } from 'vuepress'
 
 export default {
   title:'RST Helps',
-  themeConfig: {
+  theme: defaultTheme({
+    // 侧边栏数组
+    // 所有页面会使用相同的侧边栏
     sidebar: [
+      // SidebarItem
       {
-        title: '首页',   // 必要的
-        path: '/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-        collapsable: false, // 可选的, 默认值是 true,
-        sidebarDepth: 1,    // 可选的, 默认值是 1
+        text: 'Foo',
+        link: '/foo/',
         children: [
-          '/'
-        ]
+          // SidebarItem
+          {
+            text: 'github',
+            link: 'https://github.com',
+            children: [],
+          },
+          // 字符串 - 页面文件路径
+          '/foo/bar.md',
+        ],
       },
-      {
-        title: 'Group 2',
-        children: [ /* ... */ ],
-        initialOpenGroupIndex: -1 // 可选的, 默认值是 0
-      }
-    ]
-  }
+      // 字符串 - 页面文件路径
+      '/bar/README.md',
+    ],
+  }),
 }
