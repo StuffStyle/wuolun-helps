@@ -2,7 +2,6 @@ import { defineUserConfig } from 'vuepress'
 
 export default {
   title:'RST Helps',
-  theme: defaultTheme({
     // 侧边栏数组
     // 所有页面会使用相同的侧边栏
     sidebar: [
@@ -24,5 +23,4 @@ export default {
       // 字符串 - 页面文件路径
       '/bar/README.md',
     ],
-  }),
 }
