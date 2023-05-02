@@ -1,5 +1,5 @@
 ---
-home: true
+home: false
 heroText: 帮助手册
 tagline: 念念不忘 必有回响
 actionText: 手册索引 →
