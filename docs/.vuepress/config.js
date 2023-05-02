@@ -7,7 +7,7 @@ export default {
 	head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
 	logo: 'favicon.png', //文件在public文件夹内
 	repo: 'StuffStyle',  //默认识别为GitHub仓库
-	 navbar: [
+	 sidebar: [
       // NavbarItem
       {
         text: '首页',
