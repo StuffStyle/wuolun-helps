@@ -1,5 +1,5 @@
 //引入默认主题
-import { defaultTheme } from 'vuepress',
+import { defaultTheme } from 'vuepress'
 const sidebarConf = require('./sidebar')
 
 module.exports = {
@@ -9,7 +9,7 @@ module.exports = {
   themeConfig: {
     sidebar: sidebarConf
   }
-},
+}
 export default {
         title: 'RST Helps',
 	theme: defaultTheme({
