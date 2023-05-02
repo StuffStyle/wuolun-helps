@@ -1,5 +1,15 @@
 //引入默认主题
-import { defaultTheme } from 'vuepress'
+import { defaultTheme } from 'vuepress',
+const sidebarConf = require('./sidebar')
+
+module.exports = {
+  plugins: [
+    ["vuepress-plugin-auto-sidebar", {}]
+  ],
+  themeConfig: {
+    sidebar: sidebarConf
+  }
+},
 export default {
         title: 'RST Helps',
 	theme: defaultTheme({
