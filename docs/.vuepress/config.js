@@ -18,6 +18,10 @@ export default {
       },
       // 字符串 - 页面文件路径
       '/bar/README.md',
+      },
+      // 字符串 - 页面文件路径
+      '/bar/README.md',
+    ],
 sidebar: [
       // SidebarItem
       {
@@ -33,8 +37,6 @@ sidebar: [
           // 字符串 - 页面文件路径
           '/foo/bar.md',
         ],
-},
-],
       },
       // 字符串 - 页面文件路径
       '/bar/README.md',
