@@ -10,7 +10,7 @@ export default {
       '/css/': [
         'three',
         'four'
-      ]
-    }
-  }
+      ],
+    },
+  },
 }
