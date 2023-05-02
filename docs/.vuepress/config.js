@@ -3,11 +3,9 @@ import { defaultTheme } from 'vuepress'
 export default {
         title: 'RST Helps',
 	theme: defaultTheme({
-	// favicon.ico网站收藏夹图标，图片本地地址在public文件夹内，图片地址也可选填网络地址
-	head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
-	logo: 'favicon.png', //文件在public文件夹内
+	// favicon.ico网站收藏夹图标，图片本地地址在public文件夹内，图片地址也可选填网络地
 	repo: 'StuffStyle',  //默认识别为GitHub仓库
-	 sidebar: [
+	 navbar: [
       // NavbarItem
       {
         text: '首页',
@@ -21,6 +19,11 @@ export default {
       // 字符串 - 页面文件路径
       '/bar/README.md',
     ],
+sidebar: [
+            '/',
+            '/about',
+            ['/about1', 'Explicit link text']
+        ],
 	notFound:['Not Found','没找到','网页走丢了'],
 	backToHome:'返回首页' //404 页面中 返回首页链接的文字。
 	})
