@@ -4,7 +4,7 @@ export default {
         title: 'RST Helps',
 	theme: defaultTheme({
 	// favicon.ico网站收藏夹图标，图片本地地址在public文件夹内，图片地址也可选填网络地
-	repo: 'StuffStyle',  //默认识别为GitHub仓库
+	repo: 'StuffStyle/wuolun-helps',  //默认识别为GitHub仓库
 	 navbar: [
       // NavbarItem
       {
