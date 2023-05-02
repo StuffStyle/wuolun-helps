@@ -21,8 +21,8 @@ export default {
     ],
 sidebar: [
             '/',
-            '/about',
-            ['/about1', 'Explicit link text']
+            '/information',
+            ['/information', 'Explicit link text']
         ],
 	notFound:['Not Found','没找到','网页走丢了'],
 	backToHome:'返回首页' //404 页面中 返回首页链接的文字。
